@@ -1,0 +1,996 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 13px; }
+tr.R0 td.R0C0{ vertical-align: top; }
+tr.R0 td.R2C0{ font-family: Arial; font-size: 18pt; font-style: normal; font-weight: bold; vertical-align: top; }
+tr.R1{ height: 32px; }
+tr.R1 td.R1C0{ font-family: Arial; font-size: 18pt; font-style: normal; font-weight: bold; vertical-align: top; }
+tr.R3{ height: 33px; }
+tr.R3 td.R3C0{ font-family: Arial; font-size: 10pt; font-style: normal; background-color: #f4ecc5; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R4{ height: 29px; }
+tr.R4 td.R4C0{ vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R4 td.R4C4{ text-align: right; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R4 td.R4C5{ text-align: right; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R46{ height: 57px; }
+tr.R46 td.R46C0{ vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R46 td.R46C4{ text-align: right; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R46 td.R46C5{ text-align: right; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R56{ height: 15px; }
+tr.R56 td.R56C0{ vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R56 td.R56C4{ text-align: right; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R56 td.R56C5{ text-align: right; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R87{ height: 17px; }
+tr.R87 td.R87C0{ font-family: Arial; font-size: 10pt; font-style: normal; background-color: #f4ecc5; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+tr.R87 td.R87C5{ font-family: Arial; font-size: 10pt; font-style: normal; background-color: #f4ecc5; text-align: right; vertical-align: top; border-left: #ccc085 1px solid; border-top: #ccc085 1px solid; border-bottom: #ccc085 1px solid; border-right: #ccc085 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:0px; height:0px; " CELLSPACING=0>
+<COL WIDTH=63>
+<TR CLASS=R0>
+<TD CLASS=R0C0 COLSPAN=2><DIV STYLE="width:100%;height:13px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+</TR>
+</TABLE>
+<TABLE style="width:0px; height:0px; " CELLSPACING=0>
+<COL WIDTH=420>
+<TR CLASS=R1>
+<TD CLASS=R1C0 COLSPAN=2><SPAN STYLE="white-space:nowrap">Движения&nbsp;по&nbsp;кассе&nbsp;за&nbsp;текущий&nbsp;месяц</SPAN></TD>
+</TR>
+<TR CLASS=R0>
+<TD CLASS=R2C0 COLSPAN=2><DIV STYLE="width:100%;height:13px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+</TR>
+</TABLE>
+<TABLE style="width:0px; height:0px; " CELLSPACING=0>
+<COL WIDTH=84>
+<COL WIDTH=91>
+<COL WIDTH=175>
+<COL WIDTH=175>
+<COL WIDTH=84>
+<COL WIDTH=81>
+<COL WIDTH=81>
+<COL WIDTH=84>
+<TR CLASS=R3>
+<TD CLASS=R3C0>Дата</TD>
+<TD CLASS=R3C0>Номер</TD>
+<TD CLASS=R3C0>Основание</TD>
+<TD CLASS=R3C0>От кого получено или кому выдано</TD>
+<TD CLASS=R3C0>Начальный остаток</TD>
+<TD CLASS=R3C0>Приход</TD>
+<TD CLASS=R3C0>Расход</TD>
+<TD CLASS=R3C0>Конечный остаток</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>01.04.2013</TD>
+<TD CLASS=R4C0>00000000126</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Нелюбина Наталья Борисовна</TD>
+<TD CLASS=R4C4>34 050,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>26 050,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>01.04.2013</TD>
+<TD CLASS=R4C0>00000000062</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Волков Юрий Михайлович</TD>
+<TD CLASS=R4C4>26 050,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">7 650,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>33 700,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>01.04.2013</TD>
+<TD CLASS=R4C0>00000000063</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Булах Павел Андреевич</TD>
+<TD CLASS=R4C4>33 700,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>41 700,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>01.04.2013</TD>
+<TD CLASS=R4C0>00000000127</TD>
+<TD CLASS=R4C0>Заработная плата за март 2013 г.</TD>
+<TD CLASS=R4C0>Выдано Войтович Екатерина Николаевна</TD>
+<TD CLASS=R4C4>41 700,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">10 000,00</SPAN></TD>
+<TD CLASS=R4C4>31 700,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>03.04.2013</TD>
+<TD CLASS=R4C0>00000000128</TD>
+<TD CLASS=R4C0>телефон автофортуны</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>31 700,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">500,00</SPAN></TD>
+<TD CLASS=R4C4>31 200,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>04.04.2013</TD>
+<TD CLASS=R4C0>00000000129</TD>
+<TD CLASS=R4C0>Аванс за март 2013 г.</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>31 200,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">6 000,00</SPAN></TD>
+<TD CLASS=R4C4>25 200,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>05.04.2013</TD>
+<TD CLASS=R4C0>00000000066</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Смолин Евгений Сергеевич</TD>
+<TD CLASS=R4C4>25 200,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">12 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>37 200,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>07.04.2013</TD>
+<TD CLASS=R4C0>00000000167</TD>
+<TD CLASS=R4C0>заправка 909</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>37 200,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>37 000,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>07.04.2013</TD>
+<TD CLASS=R4C0>00000000168</TD>
+<TD CLASS=R4C0>мойка 909</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>37 000,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">240,00</SPAN></TD>
+<TD CLASS=R4C4>36 760,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>07.04.2013</TD>
+<TD CLASS=R4C0>00000000130</TD>
+<TD CLASS=R4C0>такси спешилова за 909</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>36 760,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">150,00</SPAN></TD>
+<TD CLASS=R4C4>36 610,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>07.04.2013</TD>
+<TD CLASS=R4C0>00000000132</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Смолин Евгений Сергеевич</TD>
+<TD CLASS=R4C4>36 610,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>28 610,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>07.04.2013</TD>
+<TD CLASS=R4C0>00000000068</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Куликов Константин Сергеевис</TD>
+<TD CLASS=R4C4>28 610,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">10 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>39 110,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>08.04.2013</TD>
+<TD CLASS=R4C0>00000000064</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Щеблецов Николай Леонидович</TD>
+<TD CLASS=R4C4>39 110,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>47 110,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>08.04.2013</TD>
+<TD CLASS=R4C0>00000000069</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>47 110,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">1 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>48 610,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>08.04.2013</TD>
+<TD CLASS=R4C0>00000000133</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Куликов Константин Сергеевис</TD>
+<TD CLASS=R4C4>48 610,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>40 610,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>08.04.2013</TD>
+<TD CLASS=R4C0>00000000134</TD>
+<TD CLASS=R4C0>200 руб. такси питер 897</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>40 610,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>40 410,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>09.04.2013</TD>
+<TD CLASS=R4C0>00000000065</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Волков Юрий Михайлович</TD>
+<TD CLASS=R4C4>40 410,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">6 850,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>47 260,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>09.04.2013</TD>
+<TD CLASS=R4C0>00000000071</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>47 260,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">1 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>48 760,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>09.04.2013</TD>
+<TD CLASS=R4C0>00000000070</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Костенко Евгений Александрович</TD>
+<TD CLASS=R4C4>48 760,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">12 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>60 760,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>09.04.2013</TD>
+<TD CLASS=R4C0>00000000135</TD>
+<TD CLASS=R4C0>бумага для принтера и файлы</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>60 760,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">220,00</SPAN></TD>
+<TD CLASS=R4C4>60 540,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>09.04.2013</TD>
+<TD CLASS=R4C0>00000000136</TD>
+<TD CLASS=R4C0>Заработная плата за Март 2013 г.</TD>
+<TD CLASS=R4C0>Выдано Немчинов Михаил Павлович</TD>
+<TD CLASS=R4C4>60 540,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">9 000,00</SPAN></TD>
+<TD CLASS=R4C4>51 540,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>09.04.2013</TD>
+<TD CLASS=R4C0>00000000137</TD>
+<TD CLASS=R4C0>такси в дан за фордом </TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>51 540,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>51 340,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>10.04.2013</TD>
+<TD CLASS=R4C0>00000000073</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>51 340,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">1 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>52 840,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>10.04.2013</TD>
+<TD CLASS=R4C0>00000000138</TD>
+<TD CLASS=R4C0>бензин за резиной летней на базу в мулы</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>52 840,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">500,00</SPAN></TD>
+<TD CLASS=R4C4>52 340,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>11.04.2013</TD>
+<TD CLASS=R4C0>00000000074</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>52 340,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">1 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>53 840,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>12.04.2013</TD>
+<TD CLASS=R4C0>00000000075</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>53 840,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">3 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>56 840,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>12.04.2013</TD>
+<TD CLASS=R4C0>00000000139</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Костенко Евгений Александрович</TD>
+<TD CLASS=R4C4>56 840,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">5 000,00</SPAN></TD>
+<TD CLASS=R4C4>51 840,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>12.04.2013</TD>
+<TD CLASS=R4C0>00000000140</TD>
+<TD CLASS=R4C0>такси на спешку за фордом</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>51 840,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>51 640,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>13.04.2013</TD>
+<TD CLASS=R4C0>00000000077</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Курдюков Михаил Михайлович</TD>
+<TD CLASS=R4C4>51 640,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">10 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>62 140,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>13.04.2013</TD>
+<TD CLASS=R4C0>00000000078</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Колегова Ектерина Анатольевна</TD>
+<TD CLASS=R4C4>62 140,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">10 800,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>72 940,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>13.04.2013</TD>
+<TD CLASS=R4C0>00000000141</TD>
+<TD CLASS=R4C0>такси от клиента 909</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>72 940,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">150,00</SPAN></TD>
+<TD CLASS=R4C4>72 790,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>14.04.2013</TD>
+<TD CLASS=R4C0>00000000142</TD>
+<TD CLASS=R4C0>Заработная плата за Март 2013 г.</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>72 790,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">14 000,00</SPAN></TD>
+<TD CLASS=R4C4>58 790,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>14.04.2013</TD>
+<TD CLASS=R4C0>00000000143</TD>
+<TD CLASS=R4C0>батарейки для брелков 4шт.</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>58 790,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">170,00</SPAN></TD>
+<TD CLASS=R4C4>58 620,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>14.04.2013</TD>
+<TD CLASS=R4C0>00000000144</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Курдюков Михаил Михайлович</TD>
+<TD CLASS=R4C4>58 620,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>50 620,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>14.04.2013</TD>
+<TD CLASS=R4C0>00000000145</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Колегова Ектерина Анатольевна</TD>
+<TD CLASS=R4C4>50 620,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>42 620,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>15.04.2013</TD>
+<TD CLASS=R4C0>00000000076</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Волков Юрий Михайлович</TD>
+<TD CLASS=R4C4>42 620,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">16 200,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>58 820,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>15.04.2013</TD>
+<TD CLASS=R4C0>00000000072</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Цепов Максим Владимирович</TD>
+<TD CLASS=R4C4>58 820,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">15 300,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>74 120,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>15.04.2013</TD>
+<TD CLASS=R4C0>00000000081</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>74 120,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">3 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>77 120,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>15.04.2013</TD>
+<TD CLASS=R4C0>00000000146</TD>
+<TD CLASS=R4C0>Зарплата за март 2013 г.</TD>
+<TD CLASS=R4C0>Выдано Войтович Екатерина Николаевна</TD>
+<TD CLASS=R4C4>77 120,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">9 000,00</SPAN></TD>
+<TD CLASS=R4C4>68 120,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>15.04.2013</TD>
+<TD CLASS=R4C0>00000000147</TD>
+<TD CLASS=R4C0>такси от мулов 736</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>68 120,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>67 920,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>15.04.2013</TD>
+<TD CLASS=R4C0>00000000148</TD>
+<TD CLASS=R4C0>300 руб. гсм 736</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>67 920,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">300,00</SPAN></TD>
+<TD CLASS=R4C4>67 620,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>15.04.2013</TD>
+<TD CLASS=R4C0>00000000149</TD>
+<TD CLASS=R4C0>мойка 736</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>67 620,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>67 420,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R46>
+<TD CLASS=R46C0>16.04.2013</TD>
+<TD CLASS=R46C0>00000000082</TD>
+<TD CLASS=R46C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R46C0>Принято от Общество с ограниченной ответственностью "УРАЛТЕХНОМЕТ"</TD>
+<TD CLASS=R46C4>67 420,80</TD>
+<TD CLASS=R46C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R46C5><SPAN></SPAN></TD>
+<TD CLASS=R46C4>75 420,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>16.04.2013</TD>
+<TD CLASS=R4C0>00000000083</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>75 420,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">1 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>76 920,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>16.04.2013</TD>
+<TD CLASS=R4C0>00000000150</TD>
+<TD CLASS=R4C0>Заработная плата за март 2013 г.</TD>
+<TD CLASS=R4C0>Выдано </TD>
+<TD CLASS=R4C4>76 920,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">36 000,00</SPAN></TD>
+<TD CLASS=R4C4>40 920,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>17.04.2013</TD>
+<TD CLASS=R4C0>00000000151</TD>
+<TD CLASS=R4C0>такси от  563</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>40 920,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>40 720,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>17.04.2013</TD>
+<TD CLASS=R4C0>00000000084</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Галкин Вечаслав Павлович</TD>
+<TD CLASS=R4C4>40 720,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">12 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>52 720,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>17.04.2013</TD>
+<TD CLASS=R4C0>00000000080</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Ивако Михаил Игорьевич</TD>
+<TD CLASS=R4C4>52 720,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">13 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>65 720,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>17.04.2013</TD>
+<TD CLASS=R4C0>00000000152</TD>
+<TD CLASS=R4C0>мойка 564 в Дан Моторс</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>65 720,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>65 520,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>17.04.2013</TD>
+<TD CLASS=R4C0>00000000085</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Бояршинов Алексей Вячеславович</TD>
+<TD CLASS=R4C4>65 520,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">10 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>76 020,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>17.04.2013</TD>
+<TD CLASS=R4C0>00000000086</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>76 020,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">1 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>77 520,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>18.04.2013</TD>
+<TD CLASS=R4C0>00000000153</TD>
+<TD CLASS=R4C0>оплата телефона 2787575</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>77 520,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">500,00</SPAN></TD>
+<TD CLASS=R4C4>77 020,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R56>
+<TD CLASS=R56C0>18.04.2013</TD>
+<TD CLASS=R56C0>00000000155</TD>
+<TD CLASS=R56C0>Возврат остатка аванса</TD>
+<TD CLASS=R56C0>Выдано ООО "УРАЛТЕХНОМЕТ"</TD>
+<TD CLASS=R56C4>77 020,80</TD>
+<TD CLASS=R56C5><SPAN></SPAN></TD>
+<TD CLASS=R56C5><SPAN STYLE="white-space:nowrap">6 530,00</SPAN></TD>
+<TD CLASS=R56C4>70 490,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>18.04.2013</TD>
+<TD CLASS=R4C0>00000000156</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Цепов Максим Владимирович</TD>
+<TD CLASS=R4C4>70 490,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>62 490,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>18.04.2013</TD>
+<TD CLASS=R4C0>00000000157</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Бояршинов Алексей Вячеславович</TD>
+<TD CLASS=R4C4>62 490,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>54 490,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>18.04.2013</TD>
+<TD CLASS=R4C0>00000000087</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Васев Максим Владимирович</TD>
+<TD CLASS=R4C4>54 490,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">3 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>57 490,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>18.04.2013</TD>
+<TD CLASS=R4C0>00000000158</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Ивако Михаил Игорьевич</TD>
+<TD CLASS=R4C4>57 490,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>49 490,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>18.04.2013</TD>
+<TD CLASS=R4C0>00000000159</TD>
+<TD CLASS=R4C0>заправка 909</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>49 490,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">700,00</SPAN></TD>
+<TD CLASS=R4C4>48 790,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>19.04.2013</TD>
+<TD CLASS=R4C0>00000000160</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Галкин Вечаслав Павлович</TD>
+<TD CLASS=R4C4>48 790,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>40 790,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>19.04.2013</TD>
+<TD CLASS=R4C0>00000000088</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Шипигузов Антон Сергеевич</TD>
+<TD CLASS=R4C4>40 790,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">10 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>50 790,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>19.04.2013</TD>
+<TD CLASS=R4C0>00000000089</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Грачев Денис Валерьевич</TD>
+<TD CLASS=R4C4>50 790,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">12 500,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>63 290,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>19.04.2013</TD>
+<TD CLASS=R4C0>00000000161</TD>
+<TD CLASS=R4C0>такси до драйвера туда и обратно за 564 шиномонтаж </TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>63 290,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">300,00</SPAN></TD>
+<TD CLASS=R4C4>62 990,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>20.04.2013</TD>
+<TD CLASS=R4C0>00000000162</TD>
+<TD CLASS=R4C0>такси от драйвера шинка 563 </TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>62 990,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">100,00</SPAN></TD>
+<TD CLASS=R4C4>62 890,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>20.04.2013</TD>
+<TD CLASS=R4C0>00000000163</TD>
+<TD CLASS=R4C0>такси  до драйвера за 563 шиномонтаж</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>62 890,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">100,00</SPAN></TD>
+<TD CLASS=R4C4>62 790,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>20.04.2013</TD>
+<TD CLASS=R4C0>00000000164</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Шипигузов Антон Сергеевич</TD>
+<TD CLASS=R4C4>62 790,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>54 790,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>21.04.2013</TD>
+<TD CLASS=R4C0>00000000092</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Бегунова Оксана Николаевна</TD>
+<TD CLASS=R4C4>54 790,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">33 600,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>88 390,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>21.04.2013</TD>
+<TD CLASS=R4C0>00000000165</TD>
+<TD CLASS=R4C0>такси драйвер шинка 562</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>88 390,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>88 190,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>21.04.2013</TD>
+<TD CLASS=R4C0>00000000093</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Бегунова Оксана Николаевна</TD>
+<TD CLASS=R4C4>88 190,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>96 190,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>22.04.2013</TD>
+<TD CLASS=R4C0>00000000166</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Грачев Денис Валерьевич</TD>
+<TD CLASS=R4C4>96 190,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">8 000,00</SPAN></TD>
+<TD CLASS=R4C4>88 190,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>22.04.2013</TD>
+<TD CLASS=R4C0>00000000095</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Сазоненков Сергей Александрович</TD>
+<TD CLASS=R4C4>88 190,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">16 650,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>104 840,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>22.04.2013</TD>
+<TD CLASS=R4C0>00000000096</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Денке Денис Александрович</TD>
+<TD CLASS=R4C4>104 840,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">12 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>116 840,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>23.04.2013</TD>
+<TD CLASS=R4C0>00000000169</TD>
+<TD CLASS=R4C0>шиномонтаж 908</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>116 840,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">100,00</SPAN></TD>
+<TD CLASS=R4C4>116 740,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>23.04.2013</TD>
+<TD CLASS=R4C0>00000000170</TD>
+<TD CLASS=R4C0>530 руб. - сапоги, 500р-грузчик резины</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>116 740,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">1 030,00</SPAN></TD>
+<TD CLASS=R4C4>115 710,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>23.04.2013</TD>
+<TD CLASS=R4C0>00000000097</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Волков Юрий Михайлович</TD>
+<TD CLASS=R4C4>115 710,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">9 600,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>125 310,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>23.04.2013</TD>
+<TD CLASS=R4C0>00000000171</TD>
+<TD CLASS=R4C0>908 ТАКСИ</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>125 310,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">100,00</SPAN></TD>
+<TD CLASS=R4C4>125 210,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>23.04.2013</TD>
+<TD CLASS=R4C0>00000000172</TD>
+<TD CLASS=R4C0>масло моторное 1 литр.</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>125 210,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">280,00</SPAN></TD>
+<TD CLASS=R4C4>124 930,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>24.04.2013</TD>
+<TD CLASS=R4C0>00000000098</TD>
+<TD CLASS=R4C0>Аванс за услуги автопроката</TD>
+<TD CLASS=R4C0>Принято от Волкова Ирина Витальевна</TD>
+<TD CLASS=R4C4>124 930,80</TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">13 000,00</SPAN></TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C4>137 930,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>24.04.2013</TD>
+<TD CLASS=R4C0>00000000176</TD>
+<TD CLASS=R4C0>Возврат остатка аванса</TD>
+<TD CLASS=R4C0>Выдано Сазоненков Сергей Александрович</TD>
+<TD CLASS=R4C4>137 930,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">9 650,00</SPAN></TD>
+<TD CLASS=R4C4>128 280,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>24.04.2013</TD>
+<TD CLASS=R4C0>00000000173</TD>
+<TD CLASS=R4C0>908 подача по адресу+ожидание</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>128 280,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>128 080,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>24.04.2013</TD>
+<TD CLASS=R4C0>00000000174</TD>
+<TD CLASS=R4C0>908</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>128 080,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>127 880,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>24.04.2013</TD>
+<TD CLASS=R4C0>00000000175</TD>
+<TD CLASS=R4C0>бумага для принтера 2 пачки </TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>127 880,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">450,00</SPAN></TD>
+<TD CLASS=R4C4>127 430,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>25.04.2013</TD>
+<TD CLASS=R4C0>00000000177</TD>
+<TD CLASS=R4C0>бензин 562</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>127 430,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">200,00</SPAN></TD>
+<TD CLASS=R4C4>127 230,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R4>
+<TD CLASS=R4C0>25.04.2013</TD>
+<TD CLASS=R4C0>00000000178</TD>
+<TD CLASS=R4C0>562 арт с пушкина-домой</TD>
+<TD CLASS=R4C0>Выдано Шерстобитов Артем Владимирович</TD>
+<TD CLASS=R4C4>127 230,80</TD>
+<TD CLASS=R4C5><SPAN></SPAN></TD>
+<TD CLASS=R4C5><SPAN STYLE="white-space:nowrap">100,00</SPAN></TD>
+<TD CLASS=R4C4>127 130,80</TD>
+<TD></TD>
+</TR>
+<TR CLASS=R87>
+<TD CLASS=R87C0><SPAN STYLE="white-space:nowrap">Итого</SPAN></TD>
+<TD CLASS=R87C0><SPAN></SPAN></TD>
+<TD CLASS=R87C0><SPAN></SPAN></TD>
+<TD CLASS=R87C0><SPAN></SPAN></TD>
+<TD CLASS=R87C0><SPAN></SPAN></TD>
+<TD CLASS=R87C5><SPAN STYLE="white-space:nowrap">294 650,00</SPAN></TD>
+<TD CLASS=R87C5><SPAN STYLE="white-space:nowrap">201 570,00</SPAN></TD>
+<TD CLASS=R87C0><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
